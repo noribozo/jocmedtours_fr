@@ -1,0 +1,147 @@
+body{
+  background: url("https://i.imgur.com/tUIYLT7.jpg") no-repeat center center fixed;
+  background-size: cover;
+  background-position: center;
+  background-color: hsla(240, 100%, 50%, 0.4);
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+li{
+    font-family: 'Lora', serif;
+    font-size: 2rem;
+    color: white;
+}
+
+.container-header{
+  background-color: hsla(240, 100%, 50%, 0.2);
+  padding: 3rem;
+  margin: 5rem;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  border-radius: 10%;
+    
+}
+
+.motto{
+    font-family: 'Satisfy', cursive;
+    color: white;
+    font-size: 3.5rem;
+ 
+}
+
+#main-intro{
+    background-color: hsla(240, 100%, 25%, 0.3);
+    color: white;
+    padding: 5rem;
+    margin: 3rem auto;
+    border-radius: 10%;
+    font-family:  'Lora', serif;
+    font-size: 1.8rem;
+    text-align: center;
+
+}
+
+#main-intro a{
+    color: hsla(180, 100%, 50%, 0.8);
+    color: pink;
+    padding: 5rem;
+    margin: 3rem auto;
+    font-family:  'Lora', serif;
+    font-size: 2rem;
+    text-align: center;
+
+}
+#table{
+  background-color: hsla(240, 100%, 50%, 0.2);
+  padding: 3rem;
+  margin: 5rem auto;
+  border-radius: 10%;
+}
+
+img{
+    border-radius: 10%;
+}
+
+img:hover{
+  transform: scale(1.5);
+}
+
+.row{
+    color: white;
+    font-family: 'Satisfy', cursive;
+    font-size: 2rem;
+}
+h1{
+    font-size: 2rem
+}
+
+h3{
+    font-size: 1.8rem;
+}
+h4{
+   font-size: 1.7rem;
+}
+
+
+th, td{
+    color: lightgray;
+    font-family: 'Quicksand', serif;
+    font-size: 2rem;
+    text-shadow: 1px 1px purple;
+}
+
+#name{
+    font-weight: bold;
+    font-size: 3rem;
+    text-shadow: 1px 1px lightgray;
+}
+
+a{
+    color: pink;
+    text-shadow: 1px 1px white;
+}
+a:hover{
+    color: purple;
+}
+
+
+@media screen and(min-width:1024px){
+    .motto{
+        font-size: 4rem;
+    }
+    a{
+        font-size: 2rem;
+    }
+    #main-intro{
+        font-size: 4rem;
+    }
+    h1, h2, h3, h4{
+        font-size: 5rem;
+    }
+   /* th, td{
+        font-size: 3rem;
+        color:white;*/
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
